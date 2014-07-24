@@ -22,6 +22,7 @@
 
 </LinearLayout>
 ```
+
 <image src="/images/hack02/hack02_1.png" width="240" height="400"/>
 
 #####这样，对于重复出现的子视图就可以在一个xml中统一维护了，而且还可以设置属性来控制其位置与大小。
