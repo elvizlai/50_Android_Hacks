@@ -2,8 +2,8 @@
 
 #####诉求：在xml中，如何实现按钮在屏幕的中间且其宽度为父窗体的50%？效果如下图
 
-<img src="/images/hack01/hack01_1.png" />
-<img src="/images/hack01/hack01_2.png" />
+<img src="/images/hack01/hack01_1.png" width="240" height="400"/>
+<img src="/images/hack01/hack01_2.png" width="240" height="400"/>
 
 ######竖屏与横屏下按钮宽度都占屏幕宽度的50%。
 
@@ -52,4 +52,4 @@
 
 </LinearLayout>
 ```
-<img src="/images/hack01/hack01_3.png" />
+<img src="/images/hack01/hack01_3.png" width="240" height="400"/>
