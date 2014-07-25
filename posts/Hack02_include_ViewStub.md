@@ -61,4 +61,6 @@ viewStub.setVisibility(View.VISIBLE);
 
 #####例如，上代码中hack02所表示的layout为一个Button，当将其设为可见后，可通过`Button button = (Button) findViewById(R.id.hack_02);`来获取该按钮，并做出相应的操作。（*注意，必须是已经设置后可见后才能进行此操作*）
 
-扩展阅读：http://developer.android.com/reference/android/view/ViewStub.html
+扩展阅读：  
+http://developer.android.com/reference/android/view/ViewStub.html  
+http://android-developers.blogspot.com.ar/2009/03/android-layout-tricks-3-optimize-with.html
