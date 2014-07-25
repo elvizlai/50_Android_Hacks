@@ -24,7 +24,7 @@
 ```
 <img src="/images/hack02/hack02_1.png" width="240" height="400"/>
 
-#####这样，对于重复出现的子视图就可以在一个xml中统一维护了，而且还可以设置属性来控制其位置与大小。
+这样，对于重复出现的子视图就可以在一个xml中统一维护了，而且还可以设置属性来控制其位置与大小。
 
 
 - - -
@@ -51,16 +51,16 @@
 
 </LinearLayout>
 ```
-#####当需要时，在activity中调用以下代码将其设为可见：
+当需要时，在activity中调用以下代码将其设为可见：
 ```
 ViewStub viewStub = (ViewStub) findViewById(R.id.hack02);
 viewStub.setVisibility(View.VISIBLE);
 ```
 
-#####当设为可见后，可通过控制属性中的inflatedId来操控载入的视图。
+当设为可见后，可通过控制属性中的inflatedId来操控载入的视图。
 
-#####例如，上代码中hack02所表示的layout为一个Button，当将其设为可见后，可通过`Button button = (Button) findViewById(R.id.hack_02);`来获取该按钮，并做出相应的操作。（*注意，必须是已经设置后可见后才能进行此操作*）
+例如，上代码中hack02所表示的layout为一个Button，当将其设为可见后，可通过`Button button = (Button) findViewById(R.id.hack_02);`来获取该按钮，并做出相应的操作。（*注意，必须是已经设置后可见后才能进行此操作*）
 
-扩展阅读：  
+#####扩展阅读：  
 http://developer.android.com/reference/android/view/ViewStub.html  
 http://android-developers.blogspot.com.ar/2009/03/android-layout-tricks-3-optimize-with.html

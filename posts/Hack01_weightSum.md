@@ -5,7 +5,7 @@
 <img src="/images/hack01/hack01_1.png" width="240" height="400"/>
 <img src="/images/hack01/hack01_2.png" width="400" height="240"/>
 
-######竖屏与横屏下按钮宽度都占屏幕宽度的50%。
+如上图所示竖屏与横屏下按钮宽度都占屏幕宽度的50%。
 
 #####技巧：使用weightSum与layout_weight属性
 先上代码：
@@ -27,9 +27,9 @@
 
 </LinearLayout>
 ```
-#####weightSum属性表示该控件在主方向（上述代码中horizontal为主方向）的总比重。layout_weight则用来表示子控件在主方向所占的比重。上例中，总长为1，子长为0.5，所以子控件达到了占总控件一半的诉求。
+weightSum属性表示该控件在主方向（上述代码中horizontal为主方向）的总比重。layout_weight则用来表示子控件在主方向所占的比重。上例中，总长为1，子长为0.5，所以子控件达到了占总控件一半的诉求。
 
-#####如果weightSum不做定义，那么其值为所有子控件layout_weight之和。如果只有一个子控件有layout_weight属性，则其会尽量填充满其父控件的主方向。如下所示：
+如果weightSum不做定义，那么其值为所有子控件layout_weight之和。如果只有一个子控件有layout_weight属性，则其会尽量填充满其父控件的主方向。如下所示：
 ```
 <LinearLayout
     android:id="@+id/"
@@ -54,5 +54,5 @@
 ```
 <img src="/images/hack01/hack01_3.png" width="240" height="400"/>
 
-扩展阅读：  
+#####扩展阅读：  
 http://developer.android.com/reference/android/widget/LinearLayout.html
