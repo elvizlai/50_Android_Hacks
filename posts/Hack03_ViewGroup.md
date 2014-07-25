@@ -33,7 +33,7 @@
 ```
 效果如下：
 
-<img src="/images/hack03/hack03_1.png" width="240" height="400"/>
+<img src="/images/hack03/hack03_2.png" width="240" height="400"/>
 
 ----
 #####技巧：使用ViewGroup来做到相同的效果，而且更加灵活。
