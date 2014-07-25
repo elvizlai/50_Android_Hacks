@@ -53,3 +53,5 @@
 </LinearLayout>
 ```
 <img src="/images/hack01/hack01_3.png" width="240" height="400"/>
+
+扩展阅读：http://developer.android.com/reference/android/widget/LinearLayout.html

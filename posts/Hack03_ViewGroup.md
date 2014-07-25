@@ -275,4 +275,4 @@ public class VGT extends ViewGroup {
 
 <img src="/images/hack03/hack03_4.png" width="240" height="400"/>
 
-
+扩展阅读：http://developer.android.com/reference/android/view/ViewGroup.html

@@ -250,3 +250,5 @@ public class AboutDialog extends DialogPreference {
 最终效果如下：
 
 <img src="/images/hack04/hack04_1.png" width="240" height="400"/>
+
+扩展阅读：http://developer.android.com/reference/android/preference/PreferenceActivity.html
