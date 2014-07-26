@@ -131,7 +131,7 @@ public class MyActivity extends Activity {
 
 效果如下：
 
-<img src="/images/hack06/hack06_1.gif" width="240" height="360"/>
+<img src="/images/hack06/hack06_1.gif" width="480" height="360"/>
 
 #####扩展阅读：  
 http://developer.android.com/reference/android/view/animation/LayoutAnimationController.html
