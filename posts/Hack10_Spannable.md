@@ -50,7 +50,7 @@ public class MyActivity extends Activity {
 
 效果如下：
 
-<img src="/images/hack10/hack10_1.gif" width="537" height="95"/>
+<img src="/images/hack10/hack10_1.png" width="537" height="95"/>
 
 #####扩展阅读：  
 http://developer.android.com/reference/android/text/Spannable.html
