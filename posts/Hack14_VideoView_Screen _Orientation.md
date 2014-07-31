@@ -4,7 +4,7 @@
 
 #####技巧：通过在xml文件中的配置监听方向变化时的监听，并在activity中捕捉来实现上述效果。
 
-首先，在mainfest.xml文件中相应的acitivity下添加以下内容，来监听变化：
+首先，在mainfest.xml文件中相应的acitivity下添加以下内容，来监听变化(有些手机还需要添加keyboardHidden|screenSize等属性来防止onCreate在config变化时执行)：
 
 <img src="/images/hack14/hack14_1.png" width="286" height="62"/>
 
