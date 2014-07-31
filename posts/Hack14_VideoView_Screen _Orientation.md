@@ -11,11 +11,6 @@
 创建布局文件main.xml，其原理是获取右上角的位置与大小，并用mVideoView来遮挡住它：
 
 ```
-<?xml version="1.0" encoding="utf-8"?>
-<!--
-  Copyright (c) 2012 Manning
-  See the file license.txt for copying permission.
--->
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
                 android:layout_width="fill_parent"
                 android:layout_height="fill_parent">

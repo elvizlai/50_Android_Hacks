@@ -1,4 +1,4 @@
-##技巧13、在onCreate()方法中获取view的宽高属性
+##技巧13、在onCreate()方法中获取View的宽高属性
 
 #####诉求：如何在onCreate()中获取view的宽度与高度？为什么直接调用view.getWidth()方法得到的确是0？在onResume()方法中调用也是如此。
 
