@@ -12,7 +12,7 @@
 
 <img src="/images/hack15/hack15_2.png" width="1333" height="792"/>
 
-<img src="/images/hack15/hack15_5.png" width="1281" height="799"/>
+<img src="/images/hack15/hack15_3.png" width="1281" height="799"/>
 
 #####扩展阅读：  
 http://developer.android.com/tools/debugging/debugging-ui.html  
